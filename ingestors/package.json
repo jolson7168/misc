@@ -1,0 +1,13 @@
+{
+  "name": "api_botnik_com",
+  "version": "0.0.1",
+  "engines": {
+        "node": "0.6.18",
+        "npm":  "1.1.32"
+    },
+  "dependencies": {
+      "async": "0.1.15",
+      "request": "2.9.100",
+      "xml2json":"0.3.2"
+  }
+}
