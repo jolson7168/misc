@@ -1,7 +1,7 @@
 OPTIONS (SKIP=1,ERRORS = 100)
 load data
-infile '/tmp/music3.csv'
-APPEND into table mine
+infile '/tmp/music.csv'
+APPEND into table iTunes
 TRAILING NULLCOLS
 (
         songName        CHAR TERMINATED BY ',' OPTIONALLY ENCLOSED BY'"',
